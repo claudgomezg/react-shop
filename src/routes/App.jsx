@@ -6,7 +6,7 @@ import RecoveryPassword from '../containers/RecoveryPassword';
 import Home from '../pages/Home';
 import NotFound from '../pages/NotFound';
 import '../styles/global.scss';
-
+import '../styles/NotFound.scss'
 
 const App = () => {
 	return (

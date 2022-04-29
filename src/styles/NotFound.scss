@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
+
+.general-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-404 {
+  font-weight: 250;
+  background-color:var(--hospital-green);
+  color: var(--white);
+  font-size: 1em;
+  text-decoration: none;
+  border: 1px solid #efefef;
+  padding: .5em;
+  border-radius: 3px;
+}
+
+.text-404 {
+  font-size: 1.8em;
+  text-align: center;
+  font-weight: 100;
+}
+
+.title-404 {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  text-align: center;
+  font-size: 6em;
+  font-weight: 100;
+}
