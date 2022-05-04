@@ -1,12 +1,24 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {StrictMode} from 'react';
 import App from './routes/App';
+import {createRoot} from 'react-dom/client';
 
-ReactDOM.createRoot(
-    document.getElementById('app'),
-  )
-  .render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>,
-  );
+
+const rootElement = document.getElementById('app');
+const root = createRoot(rootElement);
+
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+);
+
+//React 17
+// ReactDOM.createRoot(
+//     document.getElementById('app'),
+//   )
+//   .render(
+//     <React.StrictMode>
+//       <App />
+//     </React.StrictMode>,
+//   );
